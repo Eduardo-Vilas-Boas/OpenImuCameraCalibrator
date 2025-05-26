@@ -72,6 +72,7 @@ sudo apt-get install libopencv-dev libopencv-contrib-dev
 2. Install [ceres 2.1](http://ceres-solver.org/installation.html)
 ``` bash
 git clone https://github.com/ceres-solver/ceres-solver
+cd ceres-solver
 git checkout 2.1.0
 mkdir -p build && cd build && cmake .. -DBUILD_EXAMPLES=OFF -DCMAKE_BUILD_TYPE=Release
 sudo make -j install
