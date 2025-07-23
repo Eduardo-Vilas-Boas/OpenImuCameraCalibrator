@@ -298,3 +298,11 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+*.MP4
+*.mp4
+
+# Calibration files
+merging_files.txt
+Calibration_Datasets/
+Calibration_Results/
+gopro12_maxlens_fisheye_settings.yaml
